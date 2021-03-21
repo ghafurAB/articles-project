@@ -14,12 +14,18 @@ public class ArticleController {
     // Create Post -- Read Get -- Update Put -- Delete Delete
 @Autowired
 private ArticleService articleService;
-    @GetMapping("/articles")
+    @GetMapping("/articles") // mapping to the listing records service
 public List<Article> getAll(){
     return articleService.getAll();
     }
 
-    @PostMapping("/articles")
+    @GetMapping("/articles/{id}")  // mapping to the finding record service
+    public Article getById(@PathVariable Long id){
+        return articleService.findById(id);
+    }
+
+
+    @PostMapping("/articles")  // mapping to the saving records service
     public Article save(@RequestBody Article article){
         return articleService.save(article);
     }

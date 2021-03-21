@@ -1,0 +1,41 @@
+    1  ls
+    2  cd..
+    3  cd ..
+    4  exit
+    5  dir
+    6  ls
+    7  exit
+    8  ls
+    9  dir
+   10  cls
+   11  quit
+   12  exit
+   13  npm init vite-app .
+   14  npm init vite-app ./frontend
+   15  npm install
+   16  npm install vuex@next vue-router@next
+   17  npm run dev
+   18  cd frontend
+   19  npm run dev
+   20  exit
+   21  git init
+   22  git config --global user.name 'ghafur'
+   23  git config --global user.email 'ghafur.ab@gmail.com'
+   24  git config list
+   25  git config --list
+   26  git add .
+   27  git add .
+   28  git commit -m 'the first empty structure'
+   29  git remote add origin https://github.com/ghafurAB/articles-project.git
+   30  git push -u origin master
+   31  git push -u origin master
+   32  git remote add origin https://github.com/ghafurAB/articles-project
+   33  git remote add origin https://github.com/ghafurAB/articles-project.git
+   34  git push -u origin master
+   35  git push -u origin master
+   36  git login
+   37  git add .
+   38  git commit -m 'the structure with adding data base and controllers'
+   39  git push -u origin master
+   40  history
+   41  history>> history.txt
