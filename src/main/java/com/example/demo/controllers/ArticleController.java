@@ -29,4 +29,14 @@ public List<Article> getAll(){
     public Article save(@RequestBody Article article){
         return articleService.save(article);
     }
+
+    @DeleteMapping ("/articles/{id}")  // mapping to delete a record service
+    public void  deleteById(@PathVariable Long id){
+        articleService.deleteById(id);
+    }
+
+    @PutMapping ("/articles/{id}")  // mapping to delete a record service
+    public void  updateById(@PathVariable Long id, @RequestBody Article article){
+        articleService.updateById(id, article);
+    }
 }
